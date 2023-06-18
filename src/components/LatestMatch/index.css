@@ -1,0 +1,97 @@
+.latest-match-card-container {
+  width: 95%;
+  max-width: 1000px;
+  padding: 16px;
+  border: 0 solid;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+  background-color: #0f172a;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.latest-match-details-card-1 {
+  padding-right: 20px;
+  border-bottom: 2px solid #475569;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-match-details-card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text-style {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 500;
+
+  color: #ffffff;
+}
+
+.competing-team-text {
+  font-size: 20px;
+}
+
+.first-innings-text {
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+  font-size: 17px;
+}
+
+.man-of-the-match {
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+  font-size: 18px;
+}
+
+.competing-team-logo-img {
+  height: 130px;
+  width: 130px;
+}
+
+.lg-img {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .latest-match-card-container {
+    padding: 24px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .competing-team-logo-img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .latest-match-details-card-1 {
+    border: none;
+  }
+
+  .latest-match-details-card-2 {
+    align-items: flex-end;
+  }
+
+  .sm-img {
+    display: none;
+  }
+
+  .lg-img {
+    display: inline;
+  }
+}
